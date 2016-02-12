@@ -2,7 +2,7 @@
 
 A simple Angular filter to encode or decode a string using `encodeURIComponent` and `decodeURI`.
 
-[Demo on Plunkr](http://plnkr.co/edit/oPJZWt?p=preview)
+[**Demo on Plunker**](http://plnkr.co/edit/oPJZWt?p=preview)
 
 
 ## Installation
