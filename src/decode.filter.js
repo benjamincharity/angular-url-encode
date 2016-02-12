@@ -1,7 +1,5 @@
 export function DecodeFilter(
-    $window
 ) {
-    'ngInject';
 
     return decode;
 
@@ -13,7 +11,7 @@ export function DecodeFilter(
      * @return {String} output
      */
     function decode(input) {
-        return $window.decodeURI(input);
+        return decodeURI(input);
     }
 
 }
