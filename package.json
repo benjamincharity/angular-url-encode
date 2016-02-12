@@ -19,6 +19,7 @@
     "eslint-config-moment": "^1.5.0",
     "eslint-loader": "1.1.0",
     "mocha": "2.3.4",
+    "ng-annotate-loader": "^0.1.0",
     "webpack": "1.12.9"
   },
   "repository": {
