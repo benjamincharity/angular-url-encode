@@ -3,7 +3,7 @@
 
 ## Demo
 
-[Plunkr](http://plnkr.co/edit/oPJZWt)
+[Plunkr](http://plnkr.co/edit/oPJZWt?p=preview)
 
 
 ## Installation
