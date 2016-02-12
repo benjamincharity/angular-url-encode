@@ -1,6 +1,11 @@
 # Angular URL-Encode Filter
 
 
+## Demo
+
+[Plunkr](http://plnkr.co/edit/oPJZWt)
+
+
 ## Installation
 
 `$ bower install angular-url-encode --save`
@@ -14,12 +19,22 @@ angular.module('myModule', ['bc.AngularUrlEncode']);
 
 ## Usage
 
-__coming soon__
+As a filter in the DOM:
 
+```
+{{ myPlainString | bcEncode }}
+{{ encodedString | bcDecode }}
+```
 
-## Demo
+Using the `$filter` service in JS:
 
-__coming soon__
+```
+// Encode
+this.encodedString = $filter('bcEncode')(myPlainString);
+
+// Decode
+this.decodedString = $filter('bcDecode')(encodedString);
+```
 
 
 - - -
@@ -29,4 +44,11 @@ __coming soon__
 
 * `npm run build` - produces production version of your library under the `dist` folder
 * `npm run dev` - produces development version of your library and runs a watcher
+
+
+- - -
+
+
+[All idea and code contributions
+welcome!](https://github.com/benjamincharity/angular-url-encode/issues)
 
