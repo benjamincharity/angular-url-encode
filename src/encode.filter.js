@@ -1,4 +1,6 @@
-export function EncodeFilter() {
+export function EncodeFilter(
+    $window
+) {
 
     return encode;
 
@@ -10,7 +12,7 @@ export function EncodeFilter() {
      * @return {String} output
      */
     function encode(input) {
-        return window.encodeURIComponent(input);
+        return $window.encodeURIComponent(input);
     }
 
 }

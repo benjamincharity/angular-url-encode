@@ -1,4 +1,6 @@
-export function DecodeFilter() {
+export function DecodeFilter(
+    $window
+) {
 
     return decode;
 
@@ -10,7 +12,7 @@ export function DecodeFilter() {
      * @return {String} output
      */
     function decode(input) {
-        return decodeURI(input);
+        return $window.decodeURI(input);
     }
 
 }
