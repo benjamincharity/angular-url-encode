@@ -1,6 +1,7 @@
 export function DecodeFilter(
     $window
 ) {
+    'ngInject';
 
     return decode;
 

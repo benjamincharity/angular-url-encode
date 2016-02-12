@@ -64,13 +64,14 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 1 */
 /***/ function(module, exports) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
 	exports.EncodeFilter = EncodeFilter;
 	function EncodeFilter($window) {
+	    'ngInject';
 	
 	    return encode;
 	

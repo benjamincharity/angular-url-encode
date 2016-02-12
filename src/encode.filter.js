@@ -1,6 +1,7 @@
 export function EncodeFilter(
     $window
 ) {
+    'ngInject';
 
     return encode;
 
