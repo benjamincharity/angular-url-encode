@@ -36,8 +36,8 @@
   ],
   "author": "Benjamin Charity <ben@benjamincharity.com>",
   "license": "MIT",
-  "homepage": "https://github.com/benjamincharity/angular-url-encode"
+  "homepage": "https://github.com/benjamincharity/angular-url-encode",
   "bugs": {
     "url": "https://github.com/benjamincharity/angular-url-encode/issues"
-  },
+  }
 }
