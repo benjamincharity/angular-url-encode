@@ -1,8 +1,8 @@
 import { EncodeFilter } from './encode.filter';
-import { DecodeFilter } from './encode.filter';
+import { DecodeFilter } from './decode.filter';
 
-angular.module('angular-url-encode', [])
-    .filter('bpcEncode', EncodeFilter)
-    .filter('bpcDecode', DecodeFilter)
+angular.module('bc.AngularUrlEncode', [])
+    .filter('bcEncode', EncodeFilter)
+    .filter('bcDecode', DecodeFilter)
 ;
 
