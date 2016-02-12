@@ -58,7 +58,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _encode = __webpack_require__(1);
 	
-	angular.module('angular-url-encode', []).filter('bpcEncode', _encode.EncodeFilter).filter('bpcDecode', _encode.DecodeFilter);
+	var _decode = __webpack_require__(2);
+	
+	angular.module('bc.AngularUrlEncode', []).filter('bcEncode', _encode.EncodeFilter).filter('bcDecode', _decode.DecodeFilter);
 
 /***/ },
 /* 1 */
@@ -66,6 +68,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 	
+	EncodeFilter.$inject = ["$window"];
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
@@ -83,6 +86,33 @@ return /******/ (function(modules) { // webpackBootstrap
 	     */
 	    function encode(input) {
 	        return $window.encodeURIComponent(input);
+	    }
+	}
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	DecodeFilter.$inject = ["$window"];
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.DecodeFilter = DecodeFilter;
+	function DecodeFilter($window) {
+	    'ngInject';
+	
+	    return decode;
+	
+	    /**
+	     * Decode an encoded URL string
+	     *
+	     * @param {String} input
+	     * @return {String} output
+	     */
+	    function decode(input) {
+	        return $window.decodeURI(input);
 	    }
 	}
 
