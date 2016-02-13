@@ -1,6 +1,6 @@
 # Angular URL-Encode Filter
 
-A simple Angular filter to encode or decode a string using `encodeURIComponent` and `decodeURI`.
+A simple Angular filter to encode or decode a string using `encodeURI` and `decodeURI`.
 
 [**Demo on Plunker**](http://plnkr.co/edit/oPJZWt?p=preview)
 

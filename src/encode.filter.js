@@ -13,7 +13,7 @@ export function EncodeFilter(
      * @return {String} output
      */
     function encode(input) {
-        return $window.encodeURIComponent(input);
+        return $window.encodeURI(input);
     }
 
 }
