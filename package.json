@@ -1,6 +1,6 @@
 {
   "name": "angular-url-encode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple Angular filter to URL-encode a string.",
   "main": "dist/angular-url-encode.js",
   "scripts": {
